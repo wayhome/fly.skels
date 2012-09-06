@@ -1,0 +1,7 @@
+
+      # -*- Entry points: -*-
+      [paste.paster_create_template]
+      fly_namespace = fly.skels.templates:Namespace
+      fly_buildout = fly.skels.templates:Buildout
+      fly_full = fly.skels.templates:Full
+      

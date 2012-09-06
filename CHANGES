@@ -1,0 +1,11 @@
+* '0.1'
+ - rewrite the skeleton, support namespace and buildout.
+
+* '0.0.3'
+ - a little modify
+
+* '0.0.2'
+ -  fixed up "No egg-info directory found" error
+
+* '0.0.1'
+ -  first version

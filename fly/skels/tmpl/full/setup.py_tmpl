@@ -1,0 +1,36 @@
+from setuptools import setup, find_packages
+import os
+classifiers=[
+  "Programming Language :: Python",
+  'Environment :: Web Environment',
+  'Framework :: Flask',
+  'License :: OSI Approved :: BSD License',
+      ],
+
+version = ${repr($version) or "0.0"}
+README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
+
+setup(name=${repr($project)},
+      version=version,
+      description=${repr($description) or $empty},
+      long_description=README,
+      classifiers=classifiers,
+      keywords=${repr($keywords) or $empty},
+      author=${repr($author) or $empty},
+      author_email=${repr($author_email) or $empty},
+      url=${repr($url) or $empty},
+      license=${repr($license_name) or $empty},
+      packages=find_packages(exclude=['ez_setup']),
+      namespace_packages=[${repr($namespace)}],
+      include_package_data=True,
+      test_suite='nose.collector',
+      tests_require=['Nose'],  
+      zip_safe=${repr(bool($zip_safe)) or False},
+      install_requires=[
+          'setuptools',
+          # -*- Extra requirements: -*-
+      ],
+      entry_points="""
+      # -*- Entry points: -*-
+      """,
+      )

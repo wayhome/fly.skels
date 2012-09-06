@@ -1,0 +1,13 @@
+[buildout]
+develop  = .
+index = http://e.pypi.python.org/simple
+parts 	 = 
+        app
+
+eggs = bpython
+
+[app]
+recipe = zc.recipe.egg
+interpreter = python
+eggs = 
+      ${egg}
