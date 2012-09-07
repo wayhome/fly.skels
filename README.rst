@@ -1,5 +1,5 @@
 =================
-fly.skels package
+fly.skels
 =================
 
 This package is used for quickly setup some basic namespace packages or buildout based packages.
@@ -59,5 +59,5 @@ This package is used for quickly setup some basic namespace packages or buildout
         fly.full/setup.py
 
 
-For more information, go to http://www.flyzen.com
+For more information, go to https://github.com/youngking/fly.skels
 
