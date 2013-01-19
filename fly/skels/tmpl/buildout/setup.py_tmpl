@@ -5,7 +5,7 @@ classifiers=[
   'Environment :: Web Environment',
   'Framework :: Flask',
   'License :: OSI Approved :: BSD License',
-      ],
+      ]
 
 version = ${repr($version) or "0.0"}
 README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()

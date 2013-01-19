@@ -1,3 +1,6 @@
+* '0.2'
+ - fix a error when registe to pypi
+
 * '0.1'
  - rewrite the skeleton, support namespace and buildout.
 
