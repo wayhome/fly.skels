@@ -2,7 +2,7 @@
 import os
 from setuptools import setup, find_packages
 
-version = '0.2'
+version = '0.2.1'
 
 README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
@@ -38,4 +38,3 @@ setup(name='fly.skels',
       fly_full = fly.skels.templates:Full
       """,
       )
-
